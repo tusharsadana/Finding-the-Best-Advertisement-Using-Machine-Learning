@@ -39,6 +39,12 @@ for n in range(N):
     sums_of_rewards[ad]+=reward
     total_reward+=reward
 
+plt.hist(ads_selected)
+plt.title("Ads selected")
+plt.xlabel("Ads")
+plt.ylabel("Number of times each add was selected")
+plt.show()
+
             
         
         
